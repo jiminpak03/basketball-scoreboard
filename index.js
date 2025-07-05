@@ -40,3 +40,11 @@ function reset() {
     document.getElementById("score-home").textContent = homeScore
     document.getElementById("score-guest").textContent = guestScore
 }
+
+window.homeFt = homeFt
+window.home2p = home2p
+window.home3p = home3p
+window.guestFt = guestFt
+window.guest2p = guest2p
+window.guest3p = guest3p
+window.reset = reset
